@@ -1,11 +1,12 @@
 from turtle import *
 import turtle        
 wn=turtle.Screen()
-wn.bgcolor("light green")
-wn.title("Shapn1")
+wn.bgcolor("green")
+wn.title("Shape")
 shape=turtle.Turtle()
-shape.fillcolor("red")
+shape.fillcolor("black")
 shape.speed(1)
+
 for i in range(4):
     turtle.up
     shape.left(90)
