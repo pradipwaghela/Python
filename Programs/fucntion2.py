@@ -15,7 +15,8 @@
 
 def msglist(*args):
     print(args,type(args))
-    print(args[0][0])
-   
+    
+kw={"name":"Pradip","age":"23"}
 l1=["Hello","Kese","Ho"]
 msglist(l1)
+msglist(kw)
