@@ -1,0 +1,64 @@
+pip install mediapipe
+  439  pip install cv2
+  440  pip install numpy
+  441  python -u "/home/pradip/Code/Python/Projects/virtual-paint-main/virtual_paint_app.py"
+  442  python -u "/home/pradip/Code/Python/Projects/virtual-paint-main/virtual_paint_app.py"
+  443  cd Code/Python/Pro
+  444  cd Code/Python/Projects/
+  445  ls
+  446  cd virtual-paint-main/
+  447  python virtual_paint_app.py 
+  448  python3 virtual_paint_app.py 
+  449  cd Code/Python/Projects/virtual-paint-main/
+  450  python3 virtual_paint_app.py 
+  451  cd ..
+  452  cd smart-cctv-ver2.0-main/
+  453  python main.py 
+  454  python3 main.py 
+  455  pip install ImageTk
+  456  sudo apt-get install python3-pil python3-pil.imagetk
+  457  sudo apt-get install python3-pil.imagetk
+  458  apt --fix-broken install
+  459  sudo apt --fix-broken install
+  460  python3 main.py 
+  461  cd Code/Python/Projects/smart-cctv-ver2.0-main/
+  462  python main.py 
+  463  sudo apt-get install python3-tk
+  464  python3 main.py 
+  465  python
+  466  python3 main.py 
+  467  sudo apt-get install python3-pil python3-pil.imagetk
+  468  ./s1
+  469  ./s1GUI 
+  470  pushd
+  471  ls -lSr
+  472  man ls
+  473  df -i
+  474  deof
+  475  history
+  476  blkid
+  477  fdisk -l
+  478  sudo fdisk -l
+  479  ulimit -Sv 1000
+  480  ulimit -Sv unlimited
+  481  readlink -f
+  482  readlink -f w
+  483  w
+  484  sudo  /etc/login.defs
+  485  sudo cat  /etc/login.defs
+  486  cd /etc/skel/
+  487  ls
+  488  cd ~
+  489  cat /etc/passwd
+  490  cat /etc/group
+  491  cat /etc/shadow'
+  492  cat /etc/shadow
+  493  sudo cat /etc/shadow
+  494  cat /etc/passwd | grep htadmin
+  495  uptime
+  496  uptimr
+  497  uptime
+  498  python3 main.py 
+  499  /s1
+  500  ./s1GUI 
+
