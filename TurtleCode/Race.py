@@ -2,7 +2,7 @@
 #Importing Require Library
 import turtle 
 import random
-import time
+import time  
 #Set up screen 
 screen=turtle.Screen()
 screen.bgcolor("lightblue")
