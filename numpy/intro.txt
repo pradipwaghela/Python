@@ -14,3 +14,52 @@ Using NumPy, a developer can perform the following operations −
     Mathematical and logical operations on arrays.
     Fourier transforms and routines for shape manipulation.
     Operations related to linear algebra. NumPy has in-built functions for linear algebra and random number generation.
+
+NumPy – Data Types
+
+bool_
+
+Boolean (True or False) stored as a byte
+
+int_
+
+Default integer type (same as C long; normally either int64 or int32)
+
+intc
+
+Identical to C int (normally int32 or int64)
+
+intp
+
+An integer used for indexing (same as C ssize_t; normally either int32 or int64)
+
+int8
+
+Byte (-128 to 127)
+
+int16
+
+Integer (-32768 to 32767)
+
+float_
+
+Shorthand for float64
+
+float64
+
+Double precision float: sign bit, 11 bits exponent, 52 bits mantissa
+
+float64
+
+Double precision float: sign bit, 11 bits exponent, 52 bits mantissa
+
+complex_
+
+Shorthand for complex128
+
+complex64
+
+Complex number, represented by two 32-bit floats (real and imaginary components)
+
+complex128
+
