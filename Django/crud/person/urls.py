@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url,include
 from . import views
+from django.urls import path
 
 urlpatterns = [
-    url('', views.person_form),
-    url('list/',views.person_list)
+   path('', views.person_form),
+    path('list/',views.person_list)
 ]
+from django.urls import path

@@ -1,0 +1,135 @@
+
+NumPy,
+ which stands for Numerical Python, is a library consisting of multidimensional array objects and a collection of routines for processing those arrays. 
+Using NumPy, mathematical and logical operations on arrays can be performed.
+
+Numeric, the ancestor of NumPy, was developed by Jim Hugunin.
+ Another package Numarray was also developed, having some additional functionalities. 
+ In 2005, Travis Oliphant created NumPy package by incorporating the features of Numarray into Numeric package. 
+There are many contributors to this open-source project.
+
+
+Using NumPy, a developer can perform the following operations −
+
+    Mathematical and logical operations on arrays.
+    Fourier transforms and routines for shape manipulation.
+    Operations related to linear algebra. NumPy has in-built functions for linear algebra and random number generation.
+
+NumPy – Data Types
+
+bool_
+
+Boolean (True or False) stored as a byte
+
+int_
+
+Default integer type (same as C long; normally either int64 or int32)
+
+intc
+
+Identical to C int (normally int32 or int64)
+
+intp
+
+An integer used for indexing (same as C ssize_t; normally either int32 or int64)
+
+int8
+
+Byte (-128 to 127)
+
+int16
+
+Integer (-32768 to 32767)
+
+float_
+
+Shorthand for float64
+
+float64
+
+Double precision float: sign bit, 11 bits exponent, 52 bits mantissa
+
+float64
+
+Double precision float: sign bit, 11 bits exponent, 52 bits mantissa
+
+complex_
+
+Shorthand for complex128
+
+complex64
+
+Complex number, represented by two 32-bit floats (real and imaginary components)
+
+complex128
+
+Way to create array
+1-from List tuple 
+2- InsIntrinsic NumPy array creation functions
+
+NumPy has over 40 built-in functions for creating arrays as laid out in the Array creation routines. These functions can be split into roughly three categories, based on the dimension of the array they create:
+    1D arrays
+    2D arrays
+    ndarrays
+1D Array
+1)numpy.arange creates arrays with regularly incrementing values.
+2)numpy.linspace will create arrays with a specified number of elements, and spaced equally between the specified beginning and end values.
+2D Array 
+The 2D array creation functions e.g. numpy.eye, numpy.diag, and numpy.vander define properties of special matrices represented as 2D arrays.
+1)np.eye(n, m) defines a 2D identity matrix. The elements where i=j (row index and column index are equal) are 1 and the rest are 0, as such:
+array=np.eye(3)
+array=np.eye(3,5)
+
+nd array :-
+general ndarray creation functions
+The ndarray creation functions e.g. numpy.ones, numpy.zeros, and random define arrays based upon the desired shape.
+1)numpy.zeros will create an array filled with 0 values with the specified shape. The default dtype is float64:
+2)numpy.ones will create an array filled with 1 values.
+3)numpy.empty(())
+ Replicating, joining, or mutating existing arrays
+
+ 1)If you want to create a new array, use the numpy.copy 
+2)numpy.block
+/
+A = np.ones((2, 2))
+
+B = np.eye(2, 2)
+
+C = np.zeros((2, 2))
+
+D = np.diag((-3, -4))
+
+np.block([[A, B], [C, D]])
+array([[ 1.,  1.,  1.,  0. ],
+       [ 1.,  1.,  0.,  1. ],
+       [ 0.,  0., -3.,  0. ],
+       [ 0.,  0.,  0., -4. ]])
+/
+
+Axis :-
+ NumPy axes are very similar to axes in a Cartesian coordinate system.
+ NumPy axes are the directions along the rows and columns
+------->
+    X Axis = Axis 1
+1D array has only one axis 0
+2D array has 2 axis 0,1 (Row,Column) (Yaxis, Xaxis)
+Numpy concatenate with axis 
+1D array 
+/
+np_array_1s_1dim = np.array([1,1,1])
+np_array_9s_1dim = np.array([9,9,9])
+
+print(np_array_1s_1dim)
+print(np_array_9s_1dim)
+np.concatenate([np_array_1s_1dim, np_array_9s_1dim], axis = 0)
+
+/
+
+2D array concatenate
+/
+np_array_2d = np.arange(0, 6).reshape([2,3])
+print(np_array_2d)
+np.sum(np_array_2d, axis = 0)
+/
+ndarray
+
